@@ -5,7 +5,7 @@ pipeline {
         stage('Init') {
             steps {
                 //gh repo clone VishnukumarDhanarajan/JavaHelloWorld
-                //git 'https://github.com/VishnukumarDhanarajan/JavaHelloWorld.git'
+                git 'https://github.com/VishnukumarDhanarajan/JavaHelloWorld.git'
                  bat "java Helloworld.java"
             }
 
